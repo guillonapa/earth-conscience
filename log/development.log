@@ -5287,3 +5287,1159 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 72ms (Views: 67.8ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:05:38 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 788ms (Views: 513.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:08:44 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 42ms (Views: 37.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:08:46 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 50ms (Views: 47.5ms)
+
+
+Started GET "/articles/general/intro.html" for 127.0.0.1 at 2018-02-20 00:08:48 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/intro.html"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/general/images/nasa-earth-day-gallery-4.jpg" for 127.0.0.1 at 2018-02-20 00:08:48 -0500
+Started GET "/articles/general/images/plantbased-diet.jpg" for 127.0.0.1 at 2018-02-20 00:08:48 -0500
+Started GET "/articles/general/images/recycling.jpg" for 127.0.0.1 at 2018-02-20 00:08:48 -0500
+  
+Started GET "/articles/general/images/mental-health.jpg" for 127.0.0.1 at 2018-02-20 00:08:48 -0500
+Started GET "/articles/general/images/costa-rica-wildlife-sloth.jpg" for 127.0.0.1 at 2018-02-20 00:08:48 -0500
+  
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/nasa-earth-day-gallery-4.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/plantbased-diet.jpg"):
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/recycling.jpg"):
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/mental-health.jpg"):
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/costa-rica-wildlife-sloth.jpg"):
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+  
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/general/images/pic08.jpg" for 127.0.0.1 at 2018-02-20 00:08:49 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/pic08.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/general/images/pic09.jpg" for 127.0.0.1 at 2018-02-20 00:08:50 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/pic09.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/general/images/pic07.jpg" for 127.0.0.1 at 2018-02-20 00:08:50 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/pic07.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:10:09 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 63ms (Views: 58.8ms)
+
+
+Started GET "/articles/general/intro.html" for 127.0.0.1 at 2018-02-20 00:10:11 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/intro.html"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/general/images/plantbased-diet.jpg" for 127.0.0.1 at 2018-02-20 00:10:12 -0500
+Started GET "/articles/general/images/pic07.jpg" for 127.0.0.1 at 2018-02-20 00:10:12 -0500
+Started GET "/articles/general/images/nasa-earth-day-gallery-4.jpg" for 127.0.0.1 at 2018-02-20 00:10:12 -0500
+Started GET "/articles/general/images/mental-health.jpg" for 127.0.0.1 at 2018-02-20 00:10:12 -0500
+Started GET "/articles/general/images/costa-rica-wildlife-sloth.jpg" for 127.0.0.1 at 2018-02-20 00:10:12 -0500
+  
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/pic07.jpg"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/plantbased-diet.jpg"):
+  
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/nasa-earth-day-gallery-4.jpg"):
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/mental-health.jpg"):
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/costa-rica-wildlife-sloth.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:10:13 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Started GET "/articles/general/images/pic08.jpg" for 127.0.0.1 at 2018-02-20 00:10:14 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/pic08.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Completed 200 OK in 664ms (Views: 578.0ms)
+
+
+Started GET "/articles/general/images/pic09.jpg" for 127.0.0.1 at 2018-02-20 00:10:14 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/pic09.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/articles/general/images/recycling.jpg" for 127.0.0.1 at 2018-02-20 00:10:14 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/articles/general/images/recycling.jpg"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:13:05 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 27ms (Views: 25.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:13:10 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 29.7ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:13:12 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/intro.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 34ms (Views: 28.1ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:13:21 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/intro.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 43ms (Views: 38.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:15:06 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 30ms (Views: 26.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:15:09 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 19.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:15:10 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 22.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:15:12 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 33ms (Views: 30.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:15:34 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 18.8ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:16:12 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/intro.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 35ms (Views: 29.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:22:01 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (245.3ms)
+Completed 500 Internal Server Error in 252ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `static_pages' for #<#<Class:0x007fe2be76a090>:0x007fe2bf8889d0>
+Did you mean?  strip_tags):
+    137: 					</div>
+    138: 
+    139: 				<!-- Sidebar -->
+    140: 					<%= render static_pages/sidebar %>
+    141: 
+    142: 			</div>
+    143: 
+  
+app/views/static_pages/home.html.erb:140:in `_app_views_static_pages_home_html_erb___1039554598264478073_70305926367660'
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:23:24 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_sidebar.html.erb (0.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 32ms (Views: 30.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:24:23 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_sidebar.html.erb (0.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 25ms (Views: 21.8ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:24:26 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_sidebar.html.erb (0.6ms)
+  Rendered static_pages/intro.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 34ms (Views: 32.2ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:25:00 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_sidebar.html.erb (0.7ms)
+  Rendered static_pages/intro.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 45ms (Views: 41.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:29:16 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+  Rendered static_pages/_sidebar.html.erb (0.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 35ms (Views: 32.8ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:29:18 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (0.4ms)
+  Rendered static_pages/intro.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 46ms (Views: 43.8ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:29:54 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.7ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (0.5ms)
+  Rendered static_pages/intro.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 58ms (Views: 53.3ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:30:56 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+  Rendered static_pages/_sidebar.html.erb (0.4ms)
+  Rendered static_pages/intro.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 32ms (Views: 29.7ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:32:26 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.2ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+  Rendered static_pages/_sidebar.html.erb (0.3ms)
+  Rendered static_pages/intro.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 24ms (Views: 21.8ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:32:40 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+  Rendered static_pages/_sidebar.html.erb (0.5ms)
+  Rendered static_pages/intro.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 35ms (Views: 33.1ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:35:30 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.2ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+  Rendered static_pages/_sidebar.html.erb (0.3ms)
+  Rendered static_pages/intro.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 31ms (Views: 29.4ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:36:35 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.2ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+  Rendered static_pages/_sidebar.html.erb (0.3ms)
+  Rendered static_pages/intro.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 26ms (Views: 24.3ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:37:14 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.2ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+  Rendered static_pages/_sidebar.html.erb (0.3ms)
+  Rendered static_pages/intro.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 28ms (Views: 26.3ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:37:35 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+  Rendered static_pages/_sidebar.html.erb (0.3ms)
+  Rendered static_pages/intro.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 29ms (Views: 27.4ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:37:56 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+  Rendered static_pages/_sidebar.html.erb (0.5ms)
+  Rendered static_pages/intro.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 31ms (Views: 29.5ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:38:14 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.2ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+  Rendered static_pages/_sidebar.html.erb (0.3ms)
+  Rendered static_pages/intro.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 34ms (Views: 31.7ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:40:35 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+  Rendered static_pages/_sidebar.html.erb (0.5ms)
+  Rendered static_pages/intro.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 39ms (Views: 36.9ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:40:50 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.7ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (0.8ms)
+  Rendered static_pages/intro.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 65ms (Views: 62.3ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:43:53 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+  Rendered static_pages/_sidebar.html.erb (0.4ms)
+  Rendered static_pages/intro.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 56ms (Views: 46.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:44:52 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (1.4ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (0.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 61ms (Views: 56.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:46:00 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.6ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+  Rendered static_pages/_sidebar.html.erb (0.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 39ms (Views: 36.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:48:22 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+  Rendered static_pages/_sidebar.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 43ms (Views: 39.0ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:49:58 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+  Rendered static_pages/_sidebar.html.erb (1.0ms)
+  Rendered static_pages/intro.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 50ms (Views: 46.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:50:25 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+  Rendered static_pages/_sidebar.html.erb (0.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 38ms (Views: 35.6ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:50:27 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.7ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+  Rendered static_pages/_sidebar.html.erb (0.8ms)
+  Rendered static_pages/intro.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 51ms (Views: 47.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:51:20 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.6ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (0.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 54ms (Views: 49.3ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:51:24 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+  Rendered static_pages/_sidebar.html.erb (0.4ms)
+  Rendered static_pages/intro.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 37ms (Views: 34.8ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 00:51:27 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (0.5ms)
+  Rendered static_pages/intro.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 113ms (Views: 108.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:52:07 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (0.9ms)
+  Rendered static_pages/home.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 55ms (Views: 52.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:55:16 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.6ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (0.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 113ms (Views: 110.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:55:33 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 36ms (Views: 33.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 00:57:27 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+  Rendered static_pages/_sidebar.html.erb (0.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 47ms (Views: 44.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 01:00:25 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.2ms)
+  Rendered static_pages/_sidebar.html.erb (0.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 35ms (Views: 33.1ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 01:00:28 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.7ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+  Rendered static_pages/_sidebar.html.erb (1.1ms)
+  Rendered static_pages/intro.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 46ms (Views: 43.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 01:05:27 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (334.2ms)
+  Rendered static_pages/home.html.erb within layouts/application (341.8ms)
+Completed 500 Internal Server Error in 350ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_path' for #<#<Class:0x007fe2be76a090>:0x007fe2be739210>):
+    14:           <h2>Menu</h2>
+    15:         </header>
+    16:         <ul>
+    17:           <li><a href="<%= home_path %>">Homepage</a></li>
+    18:           <li><a href="#">Global Identity</a></li>
+    19:           <li><a href="#">Plant Based</a></li>
+    20:           <li><a href="#">Health</a></li>
+  
+app/views/static_pages/_sidebar.html.erb:17:in `_app_views_static_pages__sidebar_html_erb__3122923578881618838_70305922040000'
+app/views/static_pages/home.html.erb:100:in `_app_views_static_pages_home_html_erb___1039554598264478073_70305917292220'
+Started GET "/" for 127.0.0.1 at 2018-02-20 01:06:20 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+  Rendered static_pages/_sidebar.html.erb (0.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 45ms (Views: 43.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 01:06:23 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.3ms)
+  Rendered static_pages/_sidebar.html.erb (0.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 49ms (Views: 46.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 01:06:29 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (0.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 43ms (Views: 39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 01:06:31 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (1.1ms)
+  Rendered static_pages/_sidebar.html.erb (0.9ms)
+  Rendered static_pages/home.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 112ms (Views: 108.5ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 01:06:37 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (0.7ms)
+  Rendered static_pages/intro.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 43ms (Views: 41.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 01:06:45 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.9ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+  Rendered static_pages/_sidebar.html.erb (1.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 91ms (Views: 87.7ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 01:07:14 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.8ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+  Rendered static_pages/_sidebar.html.erb (1.0ms)
+  Rendered static_pages/intro.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 56ms (Views: 53.3ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 01:07:29 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.7ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (1.0ms)
+  Rendered static_pages/intro.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 53ms (Views: 46.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-20 01:07:49 -0500
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.6ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (0.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 41ms (Views: 37.7ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 01:07:54 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.9ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+  Rendered static_pages/_sidebar.html.erb (1.0ms)
+  Rendered static_pages/intro.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 60ms (Views: 53.9ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 01:08:05 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (1.7ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (0.7ms)
+  Rendered static_pages/intro.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 46ms (Views: 44.3ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-02-20 01:08:30 -0500
+Processing by StaticPagesController#intro as HTML
+  Rendering static_pages/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (0.6ms)
+  Rendered static_pages/intro.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 43ms (Views: 39.4ms)
+
+
