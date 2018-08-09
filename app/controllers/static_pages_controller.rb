@@ -12,4 +12,7 @@ class StaticPagesController < ApplicationController
   def intro
   end
 
+  def page_not_found
+  end
+
 end
