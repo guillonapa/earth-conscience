@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   root 'static_pages#home'
   get '/elements',  to: 'static_pages#elements'
   get '/generic',   to: 'static_pages#generic'
-  get '/intro',     to: 'static_pages#intro'
+  get '/intro',     to: 'posts#intro'
   get '/notfound',  to: 'static_pages#page_not_found'
 end
