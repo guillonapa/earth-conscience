@@ -8082,3 +8082,751 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 861ms (Views: 542.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-08-28 20:53:57 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (3.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (241.4ms)
+Completed 200 OK in 648ms (Views: 365.4ms)
+
+
+Started GET "/new_home" for 127.0.0.1 at 2018-08-28 21:05:55 -0400
+Processing by PostsController#new_home as HTML
+  Rendering posts/new_home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.7ms)
+  Rendered static_pages/_header.html.erb (1.0ms)
+  Rendered static_pages/_sidebar.html.erb (4.5ms)
+  Rendered posts/new_home.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 108ms (Views: 101.8ms)
+
+
+Started GET "/new_home" for 127.0.0.1 at 2018-08-28 21:07:13 -0400
+Processing by PostsController#new_home as HTML
+  Rendering posts/new_home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (4.3ms)
+  Rendered posts/new_home.html.erb within layouts/application (232.3ms)
+Completed 200 OK in 355ms (Views: 349.6ms)
+
+
+Started GET "/new_home" for 127.0.0.1 at 2018-08-28 21:07:32 -0400
+Processing by PostsController#new_home as HTML
+  Rendering posts/new_home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+  Rendered static_pages/_sidebar.html.erb (2.7ms)
+  Rendered posts/new_home.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 53ms (Views: 49.7ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:14:27 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (2.6ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 66ms (Views: 62.7ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:15:03 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (2.0ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 61ms (Views: 58.2ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:15:21 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (2.2ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 56ms (Views: 51.1ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:15:31 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+  Rendered static_pages/_sidebar.html.erb (1.7ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 52ms (Views: 48.8ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:15:41 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (2.3ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 54ms (Views: 49.5ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:18:42 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+  Rendered static_pages/_sidebar.html.erb (2.6ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 68ms (Views: 61.5ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:18:57 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+  Rendered static_pages/_sidebar.html.erb (1.9ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 51ms (Views: 47.0ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:20:42 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+  Rendered static_pages/_sidebar.html.erb (2.8ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 79ms (Views: 73.8ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:20:50 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (2.2ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 52ms (Views: 48.4ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:21:11 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.2ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (2.0ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 48ms (Views: 44.5ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:23:42 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (2.2ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 64ms (Views: 61.1ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:23:56 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (2.0ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 54ms (Views: 50.4ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:24:56 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (1.8ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 61ms (Views: 57.7ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:25:04 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (1.9ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 49ms (Views: 45.0ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:25:33 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.6ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (3.0ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 80ms (Views: 76.8ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:25:41 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+  Rendered static_pages/_sidebar.html.erb (2.0ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 57ms (Views: 53.8ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:26:49 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (2.1ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 60ms (Views: 56.4ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:27:01 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+  Rendered static_pages/_sidebar.html.erb (1.8ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 58ms (Views: 54.9ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:33:08 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (2.0ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 61ms (Views: 56.9ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:37:23 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.6ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (13.3ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (349.0ms)
+Completed 200 OK in 488ms (Views: 484.2ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:38:43 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (6.7ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 73ms (Views: 70.0ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:39:09 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+  Rendered static_pages/_sidebar.html.erb (1.8ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 78ms (Views: 74.0ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:39:38 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (1.6ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 59ms (Views: 54.7ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 21:42:24 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (20.1ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (3.3ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (112.4ms)
+Completed 200 OK in 162ms (Views: 158.1ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 21:52:13 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+  Rendered static_pages/_sidebar.html.erb (2.1ms)
+  Rendered posts/california.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 143ms (Views: 139.1ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 21:55:17 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (37.1ms)
+  Rendered posts/california.html.erb within layouts/application (978.6ms)
+Completed 200 OK in 1049ms (Views: 1045.8ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 21:56:00 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+  Rendered static_pages/_sidebar.html.erb (3.4ms)
+  Rendered posts/california.html.erb within layouts/application (34.9ms)
+Completed 200 OK in 96ms (Views: 91.8ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 21:56:43 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (9.5ms)
+  Rendered posts/california.html.erb within layouts/application (160.9ms)
+Completed 200 OK in 264ms (Views: 259.5ms)
+
+
+Started GET "/elements" for 127.0.0.1 at 2018-08-28 21:58:14 -0400
+Processing by StaticPagesController#elements as HTML
+  Rendering static_pages/elements.html.erb within layouts/application
+  Rendered static_pages/elements.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 56ms (Views: 51.2ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:03:07 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.9ms)
+  Rendered static_pages/_sidebar.html.erb (10.6ms)
+  Rendered posts/california.html.erb within layouts/application (487.3ms)
+Completed 200 OK in 597ms (Views: 593.4ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:03:51 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+  Rendered static_pages/_sidebar.html.erb (2.9ms)
+  Rendered posts/california.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 63ms (Views: 59.0ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:07:45 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+  Rendered static_pages/_sidebar.html.erb (3.1ms)
+  Rendered posts/california.html.erb within layouts/application (32.6ms)
+Completed 200 OK in 93ms (Views: 89.2ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:08:46 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+  Rendered static_pages/_sidebar.html.erb (4.8ms)
+  Rendered posts/california.html.erb within layouts/application (34.5ms)
+Completed 200 OK in 89ms (Views: 84.6ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:09:09 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (4.2ms)
+  Rendered posts/california.html.erb within layouts/application (31.4ms)
+Completed 200 OK in 86ms (Views: 82.7ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:11:24 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+  Rendered static_pages/_sidebar.html.erb (4.1ms)
+  Rendered posts/california.html.erb within layouts/application (138.2ms)
+Completed 200 OK in 229ms (Views: 225.7ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:11:45 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (6.0ms)
+  Rendered posts/california.html.erb within layouts/application (59.1ms)
+Completed 200 OK in 120ms (Views: 116.1ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:14:12 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+  Rendered static_pages/_sidebar.html.erb (23.5ms)
+  Rendered posts/california.html.erb within layouts/application (285.0ms)
+Completed 200 OK in 389ms (Views: 385.5ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:15:23 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (13.4ms)
+  Rendered posts/california.html.erb within layouts/application (250.4ms)
+Completed 200 OK in 323ms (Views: 319.9ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:15:43 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+  Rendered static_pages/_sidebar.html.erb (4.6ms)
+  Rendered posts/california.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 81ms (Views: 77.1ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:16:00 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+  Rendered static_pages/_sidebar.html.erb (4.7ms)
+  Rendered posts/california.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 125ms (Views: 121.1ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:16:25 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (2.6ms)
+  Rendered posts/california.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 83ms (Views: 79.0ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:16:49 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (3.5ms)
+  Rendered posts/california.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 68ms (Views: 65.1ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:17:00 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (4.0ms)
+  Rendered posts/california.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 125ms (Views: 119.1ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:18:54 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+  Rendered static_pages/_sidebar.html.erb (5.2ms)
+  Rendered posts/california.html.erb within layouts/application (74.4ms)
+Completed 200 OK in 131ms (Views: 126.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:19:31 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+  Rendered static_pages/_sidebar.html.erb (4.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 94ms (Views: 88.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:20:18 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (1.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 56ms (Views: 52.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:20:46 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (1.4ms)
+  Rendered static_pages/home.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 59ms (Views: 54.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:23:35 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.4ms)
+  Rendered static_pages/_sidebar.html.erb (1.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 57ms (Views: 51.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:23:51 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (1.3ms)
+  Rendered static_pages/home.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 61ms (Views: 57.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:30:16 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (1.3ms)
+  Rendered static_pages/_sidebar.html.erb (9.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (248.4ms)
+Completed 200 OK in 376ms (Views: 367.5ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 22:31:09 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (1.1ms)
+  Rendered static_pages/_sidebar.html.erb (2.4ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (25.4ms)
+Completed 200 OK in 89ms (Views: 83.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:31:14 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (1.2ms)
+  Rendered static_pages/home.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 72ms (Views: 68.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:32:38 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (1.0ms)
+  Rendered static_pages/home.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 62ms (Views: 58.6ms)
+
+
+Started GET "/new_home" for 127.0.0.1 at 2018-08-28 22:32:41 -0400
+Processing by PostsController#new_home as HTML
+  Rendering posts/new_home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+  Rendered static_pages/_sidebar.html.erb (2.2ms)
+  Rendered posts/new_home.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 62ms (Views: 57.2ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 22:32:44 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+  Rendered static_pages/_sidebar.html.erb (2.2ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 70ms (Views: 65.6ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:32:49 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (3.6ms)
+  Rendered posts/california.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 97ms (Views: 91.0ms)
+
+
+Started GET "/new_home" for 127.0.0.1 at 2018-08-28 22:32:52 -0400
+Processing by PostsController#new_home as HTML
+  Rendering posts/new_home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (2.6ms)
+  Rendered posts/new_home.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 71ms (Views: 65.7ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 22:32:56 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.6ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (2.0ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 66ms (Views: 57.4ms)
+
+
+Started GET "/california" for 127.0.0.1 at 2018-08-28 22:33:00 -0400
+Processing by PostsController#california as HTML
+  Rendering posts/california.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.7ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (4.0ms)
+  Rendered posts/california.html.erb within layouts/application (40.7ms)
+Completed 200 OK in 97ms (Views: 92.4ms)
+
+
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-08-28 22:33:35 -0400
+Processing by PostsController#zero_waste_101 as HTML
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (1.6ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 70ms (Views: 65.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:34:41 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (3.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 73ms (Views: 69.4ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-08-28 22:35:43 -0400
+Processing by PostsController#intro as HTML
+  Rendering posts/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (1.2ms)
+  Rendered static_pages/_header.html.erb (1.1ms)
+  Rendered static_pages/_sidebar.html.erb (15.7ms)
+  Rendered posts/intro.html.erb within layouts/application (46.1ms)
+Completed 200 OK in 184ms (Views: 178.0ms)
+
+
+Started GET "/intro" for 127.0.0.1 at 2018-08-28 22:36:01 -0400
+Processing by PostsController#intro as HTML
+  Rendering posts/intro.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.7ms)
+  Rendered static_pages/_sidebar.html.erb (7.3ms)
+  Rendered posts/intro.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 79ms (Views: 75.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:36:25 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.7ms)
+  Rendered static_pages/_header.html.erb (1.0ms)
+  Rendered static_pages/_sidebar.html.erb (2.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 69ms (Views: 65.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:37:17 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.4ms)
+  Rendered static_pages/_header.html.erb (0.8ms)
+  Rendered static_pages/_sidebar.html.erb (2.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 60ms (Views: 56.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:38:00 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.6ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (3.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 80ms (Views: 76.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:38:29 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.3ms)
+  Rendered static_pages/_header.html.erb (0.5ms)
+  Rendered static_pages/_sidebar.html.erb (2.6ms)
+  Rendered static_pages/home.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 65ms (Views: 61.3ms)
+
+
+Started POST "/" for 127.0.0.1 at 2018-08-28 22:38:41 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:38:59 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.5ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered static_pages/_sidebar.html.erb (2.5ms)
+  Rendered static_pages/home.html.erb within layouts/application (23.3ms)
+Completed 200 OK in 83ms (Views: 79.8ms)
+
+

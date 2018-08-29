@@ -5,4 +5,7 @@ Rails.application.routes.draw do
   get '/generic',   to: 'static_pages#generic'
   get '/intro',     to: 'posts#intro'
   get '/notfound',  to: 'static_pages#page_not_found'
+  get '/new_home',  to: 'posts#new_home'
+  get '/zero_waste_101', to: 'posts#zero_waste_101'
+  get '/california', to: 'posts#california'
 end

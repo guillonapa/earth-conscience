@@ -2,11 +2,11 @@
   <div class="inner">
 
     <!-- Search -->
-      <section id="search" class="alt">
+      <!-- <section id="search" class="alt">
         <form method="post" action="#">
           <input type="text" name="query" id="query" placeholder="Search" />
         </form>
-      </section>
+      </section> -->
 
     <!-- Menu -->
       <nav id="menu">
@@ -15,11 +15,11 @@
         </header>
         <ul>
           <li><a href="<%= root_path %>">Homepage</a></li>
-          <li><a href="<%= notfound_path %>">Global Identity</a></li>
+          <!-- <li><a href="<%= notfound_path %>">Global Identity</a></li>
           <li><a href="<%= notfound_path %>">Plant Based</a></li>
           <li><a href="<%= notfound_path %>">Health</a></li>
-          <li><a href="<%= notfound_path %>">Lifestyle</a></li>
-          <li><a href="<%= intro_path %>">About Me</a></li>
+          <li><a href="<%= notfound_path %>">Lifestyle</a></li> -->
+          <li><a href="<%= intro_path %>">About</a></li>
         </ul>
       </nav>
 
@@ -30,9 +30,29 @@
         </header>
         <div class="mini-posts">
           <article>
-            <a href="<%= intro_path %>" class="image"><%= image_tag "intro/pose.jpg" %></a>
+            <a href="<%= new_home_path %>" class="image"><%= image_tag "new_home/me_home.jpg" %></a>
+            <h3>Finding a New Home</h3>
             <p>First post ever! I love the environment, food, and adventure, and am trying to change the world around me. Welcome to my blog, where I will be sharing my experiences and hoping to inspire you to make a difference too.</p>
           </article>
+
+          <article>
+            <a href="<%= zero_waste_101_path %>" class="image"><%= image_tag "zero_waste_101/cover_home.jpg" %></a>
+            <h3>Zero Waste 101</h3>
+            <p>First post ever! I love the environment, food, and adventure, and am trying to change the world around me. Welcome to my blog, where I will be sharing my experiences and hoping to inspire you to make a difference too.</p>
+          </article>
+
+          <article>
+            <a href="<%= california_path %>" class="image"><%= image_tag "california/antelope_home.jpg" %></a>
+            <h3>California Roadtrip</h3>
+            <p>First post ever! I love the environment, food, and adventure, and am trying to change the world around me. Welcome to my blog, where I will be sharing my experiences and hoping to inspire you to make a difference too.</p>
+          </article>
+
+          <article>
+            <a href="<%= intro_path %>" class="image"><%= image_tag "intro/pose.jpg" %></a>
+            <h3>About</h3>
+            <p>First post ever! I love the environment, food, and adventure, and am trying to change the world around me. Welcome to my blog, where I will be sharing my experiences and hoping to inspire you to make a difference too.</p>
+          </article>
+
         </div>
       </section>
 
