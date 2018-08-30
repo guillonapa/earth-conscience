@@ -8,5 +8,6 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "getting the home page" do
     get root_path
     assert_response(:success)
+    
   end
 end
