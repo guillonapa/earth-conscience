@@ -11023,3 +11023,30 @@ Processing by PostsController#zero_waste_101 as HTML
 Completed 200 OK in 90ms (Views: 84.1ms | ActiveRecord: 0.3ms)
 
 
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[31mDELETE FROM "article_statistics"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.2ms)[0m  [1m[32mINSERT INTO "article_statistics" ("page_name", "likes", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["page_name", "About"], ["likes", 7], ["created_at", "2018-09-17 13:14:47.376224"], ["updated_at", "2018-09-17 13:14:47.376224"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.7ms)[0m  [1m[32mINSERT INTO "article_statistics" ("page_name", "likes", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["page_name", "California Roadtrip"], ["likes", 3], ["created_at", "2018-09-17 13:14:47.384630"], ["updated_at", "2018-09-17 13:14:47.384630"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "article_statistics" ("page_name", "likes", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["page_name", "New Home"], ["likes", 5], ["created_at", "2018-09-17 13:14:47.392793"], ["updated_at", "2018-09-17 13:14:47.392793"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "article_statistics" ("page_name", "likes", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["page_name", "Zero Waste 101"], ["likes", 7], ["created_at", "2018-09-17 13:14:47.398888"], ["updated_at", "2018-09-17 13:14:47.398888"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/zero_waste_101" for 127.0.0.1 at 2018-09-17 09:15:09 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#zero_waste_101 as HTML
+  [1m[36mArticleStatistic Load (0.2ms)[0m  [1m[34mSELECT  "article_statistics".* FROM "article_statistics" WHERE "article_statistics"."page_name" = ? ORDER BY "article_statistics"."id" ASC LIMIT ?[0m  [["page_name", "Zero Waste 101"], ["LIMIT", 1]]
+  Rendering posts/zero_waste_101.html.erb within layouts/application
+  Rendered static_pages/_head.html.erb (0.8ms)
+  Rendered static_pages/_header.html.erb (0.6ms)
+  Rendered posts/_likes.html.erb (0.9ms)
+  Rendered static_pages/_sidebar.html.erb (9.9ms)
+  Rendered posts/zero_waste_101.html.erb within layouts/application (637.5ms)
+Completed 200 OK in 856ms (Views: 726.2ms | ActiveRecord: 0.8ms)
+
+

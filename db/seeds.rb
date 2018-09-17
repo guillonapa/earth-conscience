@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+ArticleStatistic.delete_all
+
 ArticleStatistic.create(page_name: 'About', likes: 7)
 ArticleStatistic.create(page_name: 'California Roadtrip', likes: 3)
 ArticleStatistic.create(page_name: 'New Home', likes: 5)
