@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-ArticleStatistic.create(page_name: 'About', likes: 0)
-ArticleStatistic.create(page_name: 'California Roadtrip', likes: 0)
-ArticleStatistic.create(page_name: 'New Home', likes: 0)
-ArticleStatistic.create(page_name: 'Zero Waste 101', likes: 0)
+ArticleStatistic.create(page_name: 'About', likes: 7)
+ArticleStatistic.create(page_name: 'California Roadtrip', likes: 3)
+ArticleStatistic.create(page_name: 'New Home', likes: 5)
+ArticleStatistic.create(page_name: 'Zero Waste 101', likes: 7)
