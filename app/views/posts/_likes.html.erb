@@ -1,0 +1,10 @@
+<p>
+  <%=
+  if session[@page_symb] == true then
+    "<i class=\"heart-icon fas fa-heart\"></i>".html_safe
+  else
+    "<span id=\"heart-icon\"><i class=\"heart-icon far fa-heart\"></i></span>".html_safe
+  end
+  %>
+  <span id="num-likes" page-name="<%= @page_name %>" likes="<%= @likes %>"><%= @likes %></span> | Liked this article? Share the love!
+</p>

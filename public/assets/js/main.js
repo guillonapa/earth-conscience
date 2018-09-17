@@ -82,6 +82,49 @@
 
 					});
 
+					// XXX added like feature here...
+					
+					var heartClicked = false;
+					var clicks = 0;
+					const heartIcon = document.getElementById('heart-icon');
+					const numLikes = document.getElementById('num-likes');
+
+					function handleHeartClick() {
+						clicks++;
+						if (!heartClicked && clicks == 1) { //TODO
+							heartIcon.innerHTML = '<i class="fas fa-heart"></i>';
+							// Update the model with AJAX call
+							updateLikes({ page_name: numLikes.getAttribute('page-name') });
+						}
+
+					}
+
+					// Update likes on DOM
+					function updateNumberLikes() {
+						var num = numLikes.getAttribute('likes');
+						numLikes.innerHTML = parseInt(num) + 1;
+					}
+
+					// Ajax call for updating the number of likes
+					function updateLikes(page_name) {
+						$.ajax({
+							beforeSend: (xhr) => {
+        			xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'))
+      				},
+							url: '/like',
+							type: 'POST',
+							data: page_name,
+							dataType: 'json',
+							remote: true,
+							success: updateNumberLikes()
+						});
+					}
+
+					// Add event listener if we are in an article page
+					if (heartIcon !== null) {
+						heartIcon.addEventListener('click', handleHeartClick);
+					}
+
 		// Sidebar.
 			var $sidebar = $('#sidebar'),
 				$sidebar_inner = $sidebar.children('.inner');

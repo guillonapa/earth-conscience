@@ -4062,3 +4062,12 @@
 			margin-top: 0;
 			padding-top: 0;
 		}
+
+		.heart-icon {
+		  font-weight: bold;
+		}
+
+		.heart-icon:hover {
+		  color: rgb(171, 0, 0);
+		  cursor: pointer;
+		}
