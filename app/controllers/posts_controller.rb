@@ -43,6 +43,13 @@ class PostsController < ApplicationController
     @page_symb = page_name.parameterize.underscore.to_sym
   end
 
+  def suicide_prevention
+    page_name = 'Suicide Prevention'
+    @likes = ArticleStatistic.where({ page_name: page_name }).first[:likes]
+    @page_name = page_name
+    @page_symb = page_name.parameterize.underscore.to_sym
+  end
+
   private
 
   # TODO need to fix this to use in update_likes!

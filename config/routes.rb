@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   get '/new_home',  to: 'posts#new_home'
   get '/zero_waste_101', to: 'posts#zero_waste_101'
   get '/california', to: 'posts#california'
+  get '/suicide_prevention', to: 'posts#suicide_prevention'
   post '/like',     to: 'posts#update_likes'
 end
