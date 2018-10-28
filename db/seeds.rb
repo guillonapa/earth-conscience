@@ -12,4 +12,6 @@
 # ArticleStatistic.create(page_name: 'California Roadtrip', likes: 3)
 # ArticleStatistic.create(page_name: 'New Home', likes: 5)
 # ArticleStatistic.create(page_name: 'Zero Waste 101', likes: 7)
-ArticleStatistic.create(page_name: 'Suicide Prevention', likes: 3)
+# ArticleStatistic.create(page_name: 'Suicide Prevention', likes: 3)
+ArticleStatistic.create(page_name: 'Eating to Fight Climate Change', likes: 4)
+ArticleStatistic.create(page_name: 'What to Do About Climate Change', likes: 5)

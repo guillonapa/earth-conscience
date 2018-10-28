@@ -1,12 +1,27 @@
 
 <html>
-  <body style="background: rgba(203, 244, 169, 0.43)">
-    <div class="" style="margin: 3em">
+<style>
+  .background {
+    background: #2c3e50; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #4ca1af); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #4ca1af); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .main-div {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    width: 40%;
+  }
+</style>
+  <body class="background">
+    <div class="main-div">
       <div class="">
-        <img src="<%= asset_path('miscellaneous/miami.png') %>" alt="Page Not Found" style="width: 70%">
+        <img src="<%= asset_path('miscellaneous/miami.png') %>" alt="Page Not Found" style="width: 100%">
       </div>
-      <div class="" style="margin-left: 7em; margin-top: 3em;">
-        <h1>Coming soon!</h3>
+      <div class="" style="width: 100%; text-align: center; margin-top: 20px;">
+        <h1 style="color: white;">Coming soon!</h3>
+        <h3 style="color: white;">Go back to <a href="<%= root_path %>">Home</a></h3>
       </div>
     </div>
   </body>

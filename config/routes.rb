@@ -9,5 +9,7 @@ Rails.application.routes.draw do
   get '/zero_waste_101', to: 'posts#zero_waste_101'
   get '/california', to: 'posts#california'
   get '/suicide_prevention', to: 'posts#suicide_prevention'
+  get '/eating_to_fight_climate_change', to: 'posts#eating_to_fight_climate_change'
+  get '/what_to_do_about_climate_change', to: 'posts#what_to_do_about_climate_change'
   post '/like',     to: 'posts#update_likes'
 end
