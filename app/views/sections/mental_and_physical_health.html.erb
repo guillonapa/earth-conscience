@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<%= render "static_pages/head" %>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<%= render "static_pages/header" %>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Mental & Physical Health</h1>
+									</header>
+									<div class="posts">
+										
+										
+										<article>
+											<a href="<%= suicide_prevention_path %>" class="image"><%= image_tag "suicide_prevention/home.jpg" %></a>
+											<h3>Suicide Prevention Month</h3>
+											<p>Suicide and mental illness can be uncomfortable to discuss. Knowing the facts, being able to talk about the subject, and feeling comfortable reaching out can all make a big difference when trying to help or get help. Through public awareness and education, we can reduce suicide rates across the country and save lives.</p>
+											<ul class="actions">
+												<li><a href="<%= suicide_prevention_path %>" class="button">More</a></li>
+											</ul>
+										</article>
+
+										
+                                    </div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+				<%= render "static_pages/sidebar" %>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

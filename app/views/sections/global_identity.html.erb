@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<%= render "static_pages/head" %>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<%= render "static_pages/header" %>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Global Identity</h1>
+									</header>
+
+									<div class="posts">
+										<article>
+											<a href="<%= what_to_do_about_climate_change_path %>" class="image"><%= image_tag "what_to_do_about_climate_change/climate_march_home.jpg" %></a>
+											<h3>What to do About Climate Change</h3>
+											<p>The IPCC’s groundbreaking report states that we underestimated just how much climate change will affect us in the next few decades. Instead of feeling scared and hopeless, be active and learn what you can do to really make a difference.</p>
+											<ul class="actions">
+												<li><a href="<%= what_to_do_about_climate_change_path %>" class="button">More</a></li>
+											</ul>
+										</article>
+
+										
+										
+									
+
+										<article>
+											<a href="<%= new_home_path %>" class="image"><%= image_tag "new_home/me_home.jpg" %></a>
+											<h3>Finding a New Home</h3>
+											<p>After four years of moving from dorm to dorm, and a summer filled with travel, I officially moved to Boston! My traveling helped me to find a newfound appreciation for the ordinary parts of life, giving me a new perspective.</p>
+											<ul class="actions">
+												<li><a href="<%= new_home_path %>" class="button">More</a></li>
+											</ul>
+										</article>
+
+
+										<article>
+											<a href="<%= california_path %>" class="image"><%= image_tag "california/antelope_home.jpg" %></a>
+											<h3>California Roadtrip</h3>
+											<p>13 places, 37 days, and 4,000 miles! After graduation, I packed my life into a storage unit, flew to California, and took a long road trip. Read about my travels and get a glimpse of the beautiful places I had the chance to visit.</p>
+											<ul class="actions">
+												<li><a href="<%= california_path %>" class="button">More</a></li>
+											</ul>
+										</article>
+
+										
+                                    </div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+				<%= render "static_pages/sidebar" %>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

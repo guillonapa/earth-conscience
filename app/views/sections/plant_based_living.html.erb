@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<%= render "static_pages/head" %>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<%= render "static_pages/header" %>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Plant Based Living</h1>
+									</header>
+									<div class="posts">
+										
+
+										<article>
+											<a href="<%= eating_to_fight_climate_change_path %>" class="image"><%= image_tag "eating_to_fight_climate_change/vegan_salad_home.jpg" %></a>
+											<h3>Eating to Fight Climate Change</h3>
+											<p>Feeling helpless about climate change? Learn about how a plant-based diet can drastically reduce your greenhouse gas emissions and other negative effects on the environment (while also being nicer to animals and your body)!</p>
+											<ul class="actions">
+												<li><a href="<%= eating_to_fight_climate_change_path %>" class="button">More</a></li>
+											</ul>
+										</article>
+										
+										
+
+                                    </div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+				<%= render "static_pages/sidebar" %>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

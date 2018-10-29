@@ -22,6 +22,13 @@ class PostsController < ApplicationController
     @page_symb = page_name.parameterize.underscore.to_sym
   end
 
+  def first_post
+    page_name = 'First Post'
+    @likes = ArticleStatistic.where({ page_name: page_name }).first[:likes]
+    @page_name = page_name
+    @page_symb = page_name.parameterize.underscore.to_sym
+  end
+
   def new_home
     page_name = 'New Home'
     @likes = ArticleStatistic.where({ page_name: page_name }).first[:likes]

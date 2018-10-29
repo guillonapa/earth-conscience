@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<%= render "static_pages/head" %>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<%= render "static_pages/header" %>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Environmentalism</h1>
+									</header>
+									<div class="posts">
+										<article>
+											<a href="<%= what_to_do_about_climate_change_path %>" class="image"><%= image_tag "what_to_do_about_climate_change/climate_march_home.jpg" %></a>
+											<h3>What to do About Climate Change</h3>
+											<p>The IPCC’s groundbreaking report states that we underestimated just how much climate change will affect us in the next few decades. Instead of feeling scared and hopeless, be active and learn what you can do to really make a difference.</p>
+											<ul class="actions">
+												<li><a href="<%= what_to_do_about_climate_change_path %>" class="button">More</a></li>
+											</ul>
+										</article>
+
+										<article>
+											<a href="<%= eating_to_fight_climate_change_path %>" class="image"><%= image_tag "eating_to_fight_climate_change/vegan_salad_home.jpg" %></a>
+											<h3>Eating to Fight Climate Change</h3>
+											<p>Feeling helpless about climate change? Learn about how a plant-based diet can drastically reduce your greenhouse gas emissions and other negative effects on the environment (while also being nicer to animals and your body)!</p>
+											<ul class="actions">
+												<li><a href="<%= eating_to_fight_climate_change_path %>" class="button">More</a></li>
+											</ul>
+										</article>
+										
+										
+
+										
+
+										<article>
+											<a href="<%= zero_waste_101_path %>" class="image"><%= image_tag "zero_waste_101/cover_home.jpg" %></a>
+											<h3>Low-Impact Living</h3>
+											<p>Here are some easy and fun ways to eliminate plastic and waste in your life. These small tricks will help you reduce your impact on the environment, while also saving some money along the way!</p>
+											<ul class="actions">
+												<li><a href="<%= zero_waste_101_path %>" class="button">More</a></li>
+											</ul>
+										</article>
+
+										
+
+										
+                                    </div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+				<%= render "static_pages/sidebar" %>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

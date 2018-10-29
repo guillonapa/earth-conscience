@@ -6,7 +6,6 @@
 -->
 <html>
 	<%= render "static_pages/head" %>
-
 	<body>
 
 		<!-- Wrapper -->
@@ -17,71 +16,14 @@
 						<div class="inner">
 
 							<!-- Header -->
-								<%= render "static_pages/header" %>
+							<%= render "static_pages/header" %>
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Earth Conscious<br />
-											by Laura Broffman</h1>
-											<p>Environmentalism · Plant-Based · Lifestyle</p>
-										</header>
-										<p>My name is Laura Broffman. I am 22 years old and living in Boston, MA. I graduated from Brandeis University last May, where I double majored in Environmental Studies and Sociology. I’m on the never-ending job hunt, hoping to work in the environmental non-profit field, fighting climate change and making a difference. I know, cheesy, but true. For now, I’m working at a vegan ice cream & coffee shop and volunteering at an environmental non-profit called Better Future Project. It gets busy with two jobs, but I’m having fun and learning a lot!</p>
-										<p>I created this blog because as a passionate environmentalist and wannabe change-maker, I didn’t really feel like I was doing enough to make a difference around me.  I was always just talking and thinking about possibilities, but doing nothing —I wanted to actually do something. I feel passionate about so many different things, and I wanted a way to share my beliefs and experiences with others. My hope is that what I share in this space can help inspire people to lead a more eco-friendly, mindful, and healthful lifestyle, while truly appreciating the world around them.</p>
-                    					<p>This blog serves as a platform for all the ideas and experiences I feel too important to keep to myself. It is also a way to help hold myself accountable for my beliefs: my goal is to continue to align my beliefs with my everyday actions in order to create a better world. I hope to be able to communicate to you the importance of caring for the environment and world around us. It’s far too precious to take for granted.</p>
-										<ul class="actions">
-											<li><a href="<%= intro_path %>" class="button big">Learn More</a></li>
-										</ul>
-									</div>
-									<span class="image object">
-										<%= image_tag "home/earth_view.jpg" %>
-									</span>
-								</section>
-
-							<!-- Section -->
+							<!-- Content -->
 								<section>
-									<%# <header class="major">
-										<h2>Explore Posts by Category</h2>
-									</header> %>
-									<div class="features">
-										<article>
-											<span class="icon fa-recycle"></span>
-											<div class="content">
-												<h3>Environmentalism</h3>
-												<p></p>
-											</div>
-										</article>
-										<article>
-											<span class="icon fa-leaf"></span>
-											<div class="content">
-												<h3>Plant Based Living</h3>
-												<p></p>
-											</div>
-										</article>
-										<article>
-											<span class="icon fa-heart"></span>
-											<div class="content">
-												<h3>Mental &amp; Physical Health</h3>
-												<p></p>
-											</div>
-										</article>
-										<article>
-											<span class="icon fa-globe"></span>
-											<div class="content">
-												<h3>Global Identity</h3>
-												<p></p>
-											</div>
-										</article>
-									</div>
-								</section>
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Latest Posts</h2>
+									<header class="main">
+										<h1>Archive</h1>
 									</header>
-									<div class="posts">
+                                    <div class="posts">
 										<article>
 											<a href="<%= what_to_do_about_climate_change_path %>" class="image"><%= image_tag "what_to_do_about_climate_change/climate_march_home.jpg" %></a>
 											<h3>What to do About Climate Change</h3>
@@ -136,24 +78,22 @@
 											</ul>
 										</article>
 
-										<!-- <article>
-											<a href="<%= intro_path %>" class="image"><%= image_tag "intro/pose.jpg" %></a>
-											<h3>About</h3>
+										<article>
+											<a href="<%= first_post_path %>" class="image"><%= image_tag "intro/pose.jpg" %></a>
+											<h3>First Post</h3>
 											<p>First post ever! I love the environment, food, and adventure, and am trying to change the world around me. Welcome to my blog, where I will be sharing my experiences and hoping to inspire you to make a difference too.</p>
 											<ul class="actions">
-												<li><a href="<%= intro_path %>" class="button">More</a></li>
+												<li><a href="<%= first_post_path %>" class="button">More</a></li>
 											</ul>
-										</article> -->
-
-									</div>
+										</article>
+                                    </div>
 								</section>
-
 
 						</div>
 					</div>
 
 				<!-- Sidebar -->
-					<%= render "static_pages/sidebar" %>
+				<%= render "static_pages/sidebar" %>
 
 			</div>
 
