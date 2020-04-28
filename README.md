@@ -1,12 +1,10 @@
-# Earth Conscience
 
 <p align="center">
   <img src="./earth.png" width="30%">
   <br><i>All blog posts written by Laura Broffman.</i>
 </p>
 
-
-## Overview
+## Earth Conscience
 
 This is a Ruby on Rails application that hosts Laura Broffman's blog.
 
