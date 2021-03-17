@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./earth.png" width="30%">
+  <img src="public/images/earth.png" width="30%">
   <br><i>All blog posts written by Laura Broffman.</i>
 </p>
 
