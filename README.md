@@ -12,7 +12,7 @@ This is a Ruby on Rails application that hosts Laura Broffman's blog.
 
 In order to add a new post you wll need to do a few things:
 
-- TBD
+- TBD 
 
 ## Future Work
 
